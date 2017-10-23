@@ -1,5 +1,4 @@
-# treinamento-htmlcss
-Repositório para o treinamento de HTML/CSS.
+## Repositório para o treinamento de HTML/CSS.
 
 * Introdução a Http
 * Introdução ao Html
