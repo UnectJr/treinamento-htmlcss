@@ -1,6 +1,7 @@
 ## Repositório para o treinamento de HTML/CSS.
 
-* Introdução a Http
+* Introdução à WWW
+* Introdução ao Http
 * Introdução ao Html
 * Principais tags
 * Sintaxe básica do Css
