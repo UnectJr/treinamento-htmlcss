@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/* reset básico */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* container para alinhar o conteúdo ao centro da página */
+.container {
+    width: 100%;
+    margin-left: auto;      /* define a margem esquerda ao vizinho
+    A margem esquerda recebe uma parte do espaço horizontal não utilizado, conforme 
+    determinado principalmente pelo modo de layout que é usado. 
+    Se os valores de margin-lefte margin-right são ambos auto, 
+    o espaço calculado é distribuído uniformemente. Esta tabela resume os diferentes casos:*/
+    margin-right: auto;
+
+    padding: 0px 20px; /*0 px para cima e baixo e 20 em cada lateral */
+}
+
+@media (min-width: 1170px) {
+    .container {
+        max-width: 1170px; /* o tamanho vai ser máximo de 1170px */
+        padding: 0;
+    }
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    background-color: rgb(15, 113, 135);
+    display: inline-block;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.nav-links {
+    position: relative;
+    width: 33%;
+    top: -10px;
+    display: inline-flex;
+    flex: initial;
+    margin-left: 50%;
+}
+
+.nav-links li {
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding: 0 10px;
+    transition: 0.4s ease-in;
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+.nav-links a:hover{
+    color: rgb(54, 66, 133);
+}
+
+#nav-logo {
+    position: relative;
+    width: 5%;
+    height: 5%;
+    left: 15%;
+}
+
+h1, h2, h3 {
+    color: rgb(73, 70, 70);
+}
+
+.banner {
+    background-image: url('https://media.giphy.com/media/sItTiF9q0nDLW/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.banner p,
+.banner h1,
+.banner h2,
+.banner h3 {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: 40%;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.5);
+}
+
+.content {
+    padding: 20px;
+    text-align: justify;
+    color: rgb(36, 36, 36);
+}
+
+.content p {
+    margin: 20px;
+}
+
+#sobre {
+    background-color: rgba(7, 102, 119, 0.734);
+}
+
+.branco {
+    color: #fff;
+}
+.preto {
+   color: #000;
+}
