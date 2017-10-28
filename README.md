@@ -25,6 +25,7 @@ slide 3 - Introdução ao CSS : https://drive.google.com/open?id=1EGIZ6UYMpS0orH
 frameworks front-end
 
 materialize css -> http://materializecss.com/
+
 Bootstrap	-> http://getbootstrap.com/
 
 Interessantes para aprender
@@ -32,5 +33,6 @@ Interessantes para aprender
 Frameworks JS para programação mobile
 
 React -> http://facebook.github.io/react-native/
+
 Ionic -> https://ionicframework.com/docs/
 
